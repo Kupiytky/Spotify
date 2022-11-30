@@ -23,7 +23,7 @@ export default function SignUp({ navigation }) {
             <TextInput placeholder="Password" style={ [styles.input, { marginTop: -10, }]}></TextInput>
             <Text style={[styles.text, { marginHorizontal: 45, marginTop: 1, color: '#AEAEAE' }]} >Recovery Password</Text>
 
-            <Pressable style={styles.pressable} onPress={() => {  navigation.navigate('Home',) }} >
+            <Pressable style={styles.pressable} onPress={() => {  navigation.navigate('Navigation',) }} >
                 <Text style={[styles.text, { marginTop: 30, fontSize: 22, lineHeight: 30, }]} >Sign In</Text>
             </Pressable>
 

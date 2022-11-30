@@ -10,6 +10,10 @@ import ResigsterOrSignUp from "./screens/ResigsterOrSignUp";
 import SignUp from "./screens/SignUp";
 import Register from "./screens/Register";
 import Home from "./screens/Home";
+import Billie1 from "./screens/Billie1";
+import Navigation from "./Screens/Navigation";
+import Drake from "./Screens/Drake";
+import Billie2 from "./screens/Billie2";
 
 const Stack = createNativeStackNavigator();
 
@@ -20,14 +24,26 @@ export default function App() {
                 <Stack.Navigator screenOptions={{ headerShown: false }}>
 
                     <Stack.Screen
-                        name="Regidster"
-                        component={Register}
+                        name="Billie2"
+                        component={Billie2}
 
                     />
 
                     <Stack.Screen
-                        name="Home"
-                        component={Home}
+                        name="Drake"
+                        component={Drake}
+
+                    />
+
+                    <Stack.Screen
+                        name="Billie1"
+                        component={Billie1}
+
+                    />
+
+                    <Stack.Screen
+                        name="Navigation"
+                        component={Navigation}
 
                     />
 
